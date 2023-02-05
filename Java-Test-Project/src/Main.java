@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
         // declare the variable 
             //format:  <type> <name>
-            int age;
+            final int age;
         
         // intialize the variable/assign a value to it
             // format: <name> = <value>
