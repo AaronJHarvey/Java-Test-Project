@@ -1,3 +1,6 @@
+import java.util.Arrays;
+
+
 public class Main {
     public static void main(String[] args) {
         // declare the variable 
@@ -11,9 +14,13 @@ public class Main {
             // print the variable value to the terminal
             // System.out.println("I am " + age + " years old.");
 
-            char smallLetter = 'a';
-            char capitalLetter = 'A';
+            // char smallLetter = 'a';
+            // char capitalLetter = 'A';
 
-            System.out.println(smallLetter > capitalLetter);
+            // System.out.println(smallLetter > capitalLetter);
+
+            String name = "Aaron James Harvey";
+
+            System.out.println(Arrays.toString(name.split(" ")));
     }
 }
